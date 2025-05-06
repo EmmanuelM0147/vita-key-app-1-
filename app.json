@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "VitaKey Real Estate",
+    "slug": "vitakey-real-estate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vitakey.realestate"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vitakey.realestate"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./assets/sounds/notification.wav"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      },
+      "firebaseApiKey": "AIzaSyDummyKeyForDevelopment",
+      "firebaseAuthDomain": "vitakey-realestate.firebaseapp.com",
+      "firebaseProjectId": "vitakey-realestate",
+      "firebaseStorageBucket": "vitakey-realestate.appspot.com",
+      "firebaseMessagingSenderId": "123456789012",
+      "firebaseAppId": "1:123456789012:web:abcdef1234567890",
+      "firebaseMeasurementId": "G-ABCDEFGHIJ",
+      "fcmVapidKey": "your-fcm-vapid-key"
+    }
+  }
+}
